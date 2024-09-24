@@ -146,3 +146,55 @@ fieldset{
     height: 2rem;
     border-radius: 5px;
 }
+
+@media (max-width: 1020px) {
+    .barrasuperior, .barrainferior {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .barrasuperior ul, .barrainferior ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bloco {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .item {
+        width: 90%;
+        height: auto;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .imagem-dev img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sobre-dev p {
+        font-size: 1.2rem;
+    }
+
+    .box-input input {
+        width: 100%;
+    }
+
+    .corpo-newsletter button {
+        width: 100%;
+    }
+
+    .titulo h1 {
+        font-size: 2rem;
+    }
+
+    .hall p {
+        font-size: 1.1rem;
+    }
+}
