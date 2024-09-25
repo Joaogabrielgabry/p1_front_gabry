@@ -4,12 +4,10 @@ const emailInput = form.querySelector('input[type="email"]');
 const submitButton = form.querySelector('.button');
 
 function validateForm(event) {
-    event.preventDefault();
-
+    event.preventDefault(); 
     const nameValue = nameInput.value.trim();
     const emailValue = emailInput.value.trim();
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/; 
     if (nameValue === '' || emailValue === '') {
         alert('Por favor, preencha todos os campos.');
     } else if (!emailPattern.test(emailValue)) {
