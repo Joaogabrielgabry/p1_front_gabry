@@ -67,8 +67,8 @@ fieldset{
 }
 
 .item {
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     background-color: wheat;
     border-radius: 8px;
     box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
@@ -95,6 +95,7 @@ fieldset{
     align-items: center;
     color: #070707;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .descricao p a {
@@ -195,9 +196,14 @@ fieldset{
         gap: 5px;
     }
 
+    .hall h1{
+        text-align: center;
+    }
+
     .bloco {
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
+        gap: 35px;
     }
 
     .item {
@@ -233,5 +239,8 @@ fieldset{
 
     .hall p {
         font-size: 1.1rem;
+    }
+    .corpo-newsletter h2{
+        text-align: center;
     }
 }
