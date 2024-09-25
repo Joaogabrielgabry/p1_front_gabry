@@ -46,6 +46,7 @@ fieldset{
     text-decoration: none;
     color: #1d1c1c;
     font-weight: bold;
+    font-size:x-large;
 }
 
 .sites {
@@ -153,13 +154,18 @@ fieldset{
 }
 
 .box-input input{
-    width: 16rem;
+    width: 18rem;
+    height: 2rem;
     border-radius: 5px;
+    font-weight: bold;
 }
 .corpo-newsletter button{
     width: 8rem;
     height: 2rem;
     border-radius: 5px;
+    color: #070707;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .barra-inf-right{
