@@ -57,6 +57,13 @@ fieldset{
     display: flex;
     justify-content: space-around;
 }
+.bloco:hover .item{
+    opacity: .5;
+}
+
+.bloco .item:hover{
+    opacity: 1;
+}
 
 .item {
     width: 200px;
@@ -66,6 +73,12 @@ fieldset{
     box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
+    transition: all .3s;
+}
+
+.item:hover{
+    transform: scale(1.2);
+    transform: translateY(-10px);
 }
 
 .imagem img {
@@ -88,8 +101,8 @@ fieldset{
     text-decoration: none;
 }
 
-.sobre-dev p, .sobre-dev a {
-    text-align: justify;
+.sobre-dev p{
+    text-align: center;
     font-size: 1.5rem;
 }
 
@@ -136,6 +149,7 @@ fieldset{
 }
 .barra-inf-left ul li {
     color: #070707;
+    font-size:larger;
 }
 
 .box-input input{
@@ -146,6 +160,14 @@ fieldset{
     width: 8rem;
     height: 2rem;
     border-radius: 5px;
+}
+
+.barra-inf-right{
+    text-decoration: none;
+    color: #070707;
+}
+.barra-inf-right ul li a i{
+    transform: scale(1.1);
 }
 
 @media (max-width: 1020px) {
