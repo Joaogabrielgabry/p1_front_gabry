@@ -166,13 +166,21 @@ fieldset{
     color: #070707;
     font-size: medium;
     font-weight: bold;
+    opacity: 0.5;
 }
-
+.button:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
 .barra-inf-right{
     text-decoration: none;
     color: #070707;
 }
-.barra-inf-right ul li a i{
+
+.insta:hover{
+    transform: scale(1.1);
+}
+.linkedin:hover{
     transform: scale(1.1);
 }
 
@@ -183,8 +191,8 @@ fieldset{
     }
 
     .barrasuperior ul, .barrainferior ul {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: center;
+        gap: 5px;
     }
 
     .bloco {
